@@ -28,7 +28,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = 'orange.jpg'
+image = 'flower.jpg'
 img = cv2.imread(image)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
@@ -97,7 +97,7 @@ def detect_handwriting(image_path):
     plt.axis('off')
     plt.show()
 
-image_path = 'hand.jpg'
+image_path = 'simple.jpg'
 
 detect_handwriting(image_path)
 ```
@@ -139,7 +139,7 @@ with open(file_name,'rt')as fpt:
 
 print(classLabels)
 print(len(classLabels))
-img=cv2.imread('bike.jpg')
+img=cv2.imread('train.jpg')
 plt.imshow(img)
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 model.setInputSize(320,320)
