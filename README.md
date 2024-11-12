@@ -6,7 +6,7 @@ ii) Perform handwritting detection in an image.
 iii) Perform object detection with label in an image.
 ## Software Required:
 Anaconda - Python 3.7
-### Developed By : P.Keerthana
+### Developed By : Keerthana P
 ### Register Number : 212223240069
 ## Algorithm:
 ## I)Perform ROI from an image
